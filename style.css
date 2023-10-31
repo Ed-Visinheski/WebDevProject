@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.previous {
+	background-color: black;
+	color: white;
+}
+.next {
+	background-color: #00FF80;
+	color: white;
+}
+/* Style the header */
+.header {
+	padding: 100px;
+	text-align: center;
+	background-image: url("images/title.jpg");
+	background-position: left top;
+	color: white;
+}
+/* Increase the font size of the h1 element */
+.header h1 {
+	font-size: 40px;
+}
+.side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.main {
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+}
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+}
+a.linkum:link {
+	color: #000000;
+	text-decoration: none;
+}
+a.linkum:hover {
+	color: #FF0000;
+}
+ @media (max-width: 700px) {
+.row {
+	flex-direction: column;
+}
+}

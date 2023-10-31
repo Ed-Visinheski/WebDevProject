@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Minecraft Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MINECRAFT REDSTONE TUTORIAL." />
+<meta name="author" content="Eduardo Cook Visinheski" />
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div id='cssmenu'>
+  <ul>
+    <li><a href='index.html'>Home</a></li>
+    <li class='active'><a href='#'>Tutorials</a>
+      <ul>
+        <li><a href='#'>Reactive Objects</a>
+          <ul>
+            <li><a href='10.html'>Chapter 1</a></li>
+            <li><a href='11.html'>Chapter 2</a></li>
+            <li><a href='12.html'>Chapter 3</a></li>
+            <li><a href='13.html'>Chapter 4</a></li>
+          </ul>
+        </li>
+        <li><a href='#'>Elaborate Devices</a>
+          <ul>
+            <li><a href='tutorial.html'>Chapter 1</a></li>
+            <li><a href='3.html'>Chapter 2</a></li>
+            <li><a href='7.html'>Chapter 3</a></li>
+            <li><a href='8.html'>Chapter 4</a></li>
+            <li><a href='9.html'>Chapter 5</a></li>
+          </ul>
+        </li>
+        <li><a href='#'>MiniGame</a>
+          <ul>
+            <li><a href='14.html'>Chapter 1</a></li>
+            <li><a href='15.html'>Chapter 2</a></li>
+            <li><a href='16.html'>Chapter 3</a></li>
+          </ul>
+        </li>
+        <li><a href='#'>Youtubers</a>
+          <ul>
+            <li><a href='17.html'>Chapter 1</a></li>
+            <li><a href='18.html'>Chapter 2</a></li>
+          </ul>
+        </li>
+                <li><a href='#'>Lighting</a>
+          <ul>
+            <li><a href='19.html'>Chapter 1</a></li>
+            <li><a href='20.html'>Chapter 2</a></li>
+            <li><a href='21.html'>Chapter 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href='1.html'>Essentials</a></li>
+    <li><a href='2.html'>Dust</a></li>
+    <li><a href='4.html'>Torch and Repeaters</a></li>
+  </ul>
+</div>
+<div class="header">
+	<h1>TUTORIALS</h1>
+	<p>MiniGame</p>
+</div>
+<div class="row">
+	<div class="main">
+		<h2>Automated Redstone Game</h2>
+		<h5>How to Make Automated Redstone MiniGames in Minecraft</h5>
+		<h2>Implementing Game Mechanics</h2>
+		<p>This is probably the hardest and most complex step. This may require many hours of fine tuning if you let things get out
+		of hand.<br>
+		<br>
+		The first obstacle you encounter in my redstone game is a lava pit that appears and disappears. I made this using sticky pistons
+		that run off of a redstone clock as seen below. The player has to time their running carefully or risk falling into the lava
+		pit. I've lined the obstacle course with walls of wool to keep players locked in death run.</p>
+		<img src="images/t1.jpg" alt="photo 1 of minigame" width="25%">
+		<img src="images/t2.jpg" alt="photo 2 of minigame" width="25%">
+		<h5>(1) Players run across the extended pistons as seen from this birds eye view. , (2) The pistons retract at different timings I set in their corresponding redstone clocks.</h5>
+		<p>My first obstacle is powered by redstone clocks.<br>
+		<br>
+		<iframe width="100%" height="315" src="https://www.youtube.com/embed/q_2_lA04cBg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+		<br>
+		Redstone clocks are fairly simple. They are made from four redstone repeaters in a circuit. Each repeater can be set to a different
+		timing by right clicking them. As the current goes around the clock, it moves from repeater to repeater based on the timing each
+		is set to. The redstone pulse that results from these clocks powers my piston obstacle at different timings. You can view the 
+		redstone clock arrangement below.</p>
+		<img src="images/t3.jpg" alt="photo 3 of minigame" width="25%">
+		<p>The second obstacle I used are a set of pressure plates that run along the course that are attached to dispensers filled
+		with arrows. These dispensers hit the player with arrows if they step on the wrong pressure plates. I also included some 
+		false pressure plates to try and fool the player.</p>
+		<img src="images/t4.jpg" alt="photo 4 of minigame" width="25%">
+		<img src="images/t5.jpg" alt="photo 5 of minigame" width="25%">
+		<h5>(1) Here are two pressure plates that are not activated. , (2) As you can see here the pressure plate on the left is false, while the one on the right is real.</h5>
+		<p>Pressure plates and pistons can get boring. Having them alone would make my course too easy and so in order to add some 
+		variety to the experience, I added a second arrow-filled dispenser and piston obstacle that are powered by a memory array. 
+		As stated earlier, the memory array works on the same principles as the sheet music used in the programmable piano. Implementing 
+		a memory array gives some of my obstacles a less predictable path.</p>
+		<a href="14.html" class="previous">&laquo; Previous</a>
+		<a href="16.html" class="next">Next &raquo;</a>
+	</div>
+</div>
+<div class="footer">
+  <h2>Source<br><a href = "https://minecraft.wonderhowto.com/how-to/create-automated-redstone-games-minecraft-0130952/">How to Create Automated Redstone Games in Minecraft</a></h2>
+</div>
+</body>
+</html>
+
